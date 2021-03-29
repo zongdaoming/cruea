@@ -1,6 +1,5 @@
 -----------
  This repo is used to share the implementations of our paper **Unsupervised Cross-Modality Adaptation with Consistency-regularized Appearance and Uncertainty-aware Feature Alignment for Medical Image Segmentation**.<br/>
-
 -----------
 
 ## Paper
@@ -38,14 +37,14 @@ cd cruea
 ## Acknowledgement
 Part of the code is borrowed from the [Tensorflow implementation of CycleGAN](https://github.com/leehomyc/cyclegan-1) and [Tensorflow implementation of SIFA](https://github.com/cchen-cc/SIFA).
 
-## Todo
+## Todo List
 
-- [x] Tensorflow 实现 
-- [x] 函数封装
-- [x] 优化设计
-- [ ] Pytorch实现
-- [ ] Backbone网络模块化调用
-- [ ] 预训练权重上传
+- [x] Tensorflow Impletation 
+- [x] Function Wrapper
+- [x] Code Tree
+- [ ] Pytorch Impletation
+- [ ] Adding More Backbone Networks 
+- [ ] Pre-training weight Upload
 
 
 ## Note
