@@ -31,7 +31,25 @@ cd cruea
 * Run `./create_datalist.py` to generate the datalists containing the path of each data.
 
 ## Code Structure
-
+```shell
+├── include
+│   └── add2.h # header file of add2 cuda kernel
+├── kernel
+│   └── add2_kernel.cu # add2 cuda kernel
+├── pytorch
+│   ├── add2_ops.cpp # torch wrapper of add2 cuda kernel
+│   ├── time.py # time comparison of cuda kernel and torch
+│   ├── train.py # training using custom cuda kernel
+│   ├── setup.py
+│   └── CMakeLists.txt
+├── tensorflow
+│   ├── add2_ops.cpp # tensorflow wrapper of add2 cuda kernel
+│   ├── time.py # time comparison of cuda kernel and tensorflow
+│   ├── train.py # training using custom cuda kernel
+│   └── CMakeLists.txt
+├── LICENSE
+└── README.md
+```
 
 
 ## Train
@@ -45,12 +63,12 @@ cd cruea
 ## Todo List
 :bowtie:
 
-- [x] Tensorflow Impletation  
-- [x] Function Wrapper 
-- [x] Code Tree :bowtie:
-- [ ] Pytorch Impletation  
-- [ ] Adding More Backbone Networks 
-- [ ] Pre-training weight Upload 
+- [x] Tensorflow Impletation  :full_moon_with_face:
+- [x] Function Wrapper :full_moon_with_face:
+- [x] Code Tree :full_moon_with_face:
+- [ ] Pytorch Impletation  :new_moon_with_face:
+- [ ] Adding More Backbone :new_moon_with_face:
+- [:new_moon_with_face:] Pre-training weight Upload  
 
 
 ## Note
