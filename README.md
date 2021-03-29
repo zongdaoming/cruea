@@ -20,6 +20,10 @@ git clone https://github.com/zongdaoming/cruea
 cd cruea
 ```
 
+# Environments
+
+
+
 ## Data Preparation
 * Raw data needs to be written into `tfrecord` format to be decoded by `./data_loader.py`. The training data can be downloaded [here](https://drive.google.com/file/d/1m9NSHirHx30S8jvN0kB-vkd7LL0oWCq3/view). The testing CT data can be downloaded [here](https://drive.google.com/file/d/1SJM3RluT0wbR9ud_kZtZvCY0dR9tGq5V/view). The testing MR data can be downloaded [here](https://drive.google.com/file/d/1RNb-4iYWUaFBY61rFAnT2XT0mtwlnH1V/view).
 
@@ -40,12 +44,12 @@ cd cruea
 
 ## Todo List
 
-- [x] Tensorflow Impletation `:boom:`
-- [x] Function Wrapper `:boom:`
-- [x] Code Tree `:boom:`
-- [ ] Pytorch Impletation `:exclamation:`
-- [ ] Adding More Backbone Networks `:exclamation:`
-- [ ] Pre-training weight Upload `:exclamation:`
+- [x] Tensorflow Impletation  :bowtie:
+- [x] Function Wrapper :bowtie:
+- [x] Code Tree :bowtie:
+- [ ] Pytorch Impletation  :exclamation:
+- [ ] Adding More Backbone Networks  :exclamation:
+- [ ] Pre-training weight Upload  :exclamation:
 
 
 ## Note
