@@ -43,13 +43,14 @@ cd cruea
 * Run `./evaluate.py` to start the evaluation.
 
 ## Todo List
+:bowtie:
 
-- [x] Tensorflow Impletation  :bowtie:
-- [x] Function Wrapper :bowtie:
+- [x] Tensorflow Impletation  
+- [x] Function Wrapper 
 - [x] Code Tree :bowtie:
-- [ ] Pytorch Impletation  :exclamation:
-- [ ] Adding More Backbone Networks  :exclamation:
-- [ ] Pre-training weight Upload  :exclamation:
+- [ ] Pytorch Impletation  
+- [ ] Adding More Backbone Networks 
+- [ ] Pre-training weight Upload 
 
 
 ## Note
