@@ -8,7 +8,7 @@ IEEE Transactions on Image Processing
 <br/>
 <br/>
 <p align="center">
-  <img src="figure/pipeline4.png">
+  <img src="figure/pipeline4.jpg">
 </p>
 
 ## Installation
