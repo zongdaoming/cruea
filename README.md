@@ -2,7 +2,7 @@
 This repo is used to share our implementation of the paper **Unsupervised Cross-Modality Adaptation with Consistency-regularized Appearance and Uncertainty-aware Feature Alignment for Medical Image Segmentation**.<br/>
 
 ## Paper
-[Unsupervised Bidirectional Cross-Modality Adaptation via Deeply Synergistic Image and Feature Alignment for Medical Image Segmentation](https://arxiv.org/abs/2002.02255)
+[Unsupervised Cross-Modality Adaptation with Consistency-regularized Appearance and Uncertainty-aware Feature Alignment for Medical Image Segmentation]
 <br/>
 IEEE Transactions on Image Processing
 <br/>
@@ -33,7 +33,7 @@ cd cruea
 * Run `./evaluate.py` to start the evaluation.
 
 ## Acknowledgement
-Part of the code is revised from the [Tensorflow implementation of CycleGAN](https://github.com/leehomyc/cyclegan-1) and [Tensorflow implementation of SIFA](https://github.com/cchen-cc/SIFA).
+Part of the code is borrowed from the [Tensorflow implementation of CycleGAN](https://github.com/leehomyc/cyclegan-1) and [Tensorflow implementation of SIFA](https://github.com/cchen-cc/SIFA).
 
 ## Note
 * The repository is being updated
