@@ -26,6 +26,10 @@ cd cruea
 * Put `tfrecord` data of two domains into corresponding folders under `./data` accordingly.
 * Run `./create_datalist.py` to generate the datalists containing the path of each data.
 
+## Code Structure
+
+
+
 ## Train
 * Modify paramter values in `./config_param.json`
 * Run `./main.py` to start the training process
@@ -34,19 +38,21 @@ cd cruea
 * Specify the model path and test file path in `./evaluate.py`
 * Run `./evaluate.py` to start the evaluation.
 
-## Acknowledgement
-Part of the code is borrowed from the [Tensorflow implementation of CycleGAN](https://github.com/leehomyc/cyclegan-1) and [Tensorflow implementation of SIFA](https://github.com/cchen-cc/SIFA).
-
 ## Todo List
 
-- [x] Tensorflow Impletation 
-- [x] Function Wrapper
-- [x] Code Tree
-- [ ] Pytorch Impletation
-- [ ] Adding More Backbone Networks 
-- [ ] Pre-training weight Upload
+- [x] Tensorflow Impletation `:boom:`
+- [x] Function Wrapper `:boom:`
+- [x] Code Tree `:boom:`
+- [ ] Pytorch Impletation `:exclamation:`
+- [ ] Adding More Backbone Networks `:exclamation:`
+- [ ] Pre-training weight Upload `:exclamation:`
 
 
 ## Note
 * The repository is being updated
 * Contact: Daoming Zong (ecnuzdm@gmail.com)
+
+
+
+## Acknowledgement
+Part of the code is borrowed from the Tensorflow implementation of [CycleGAN](https://github.com/leehomyc/cyclegan-1) and [SIFA](https://github.com/cchen-cc/SIFA).
